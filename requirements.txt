@@ -1,0 +1,46 @@
+# Pemo Application Test Automation Framework - Dependencies
+# ========================================================
+# This file lists all Python packages required to run the test automation framework
+# Install using: pip install -r requirements.txt
+
+# Core Testing Framework
+pytest>=7.0.0                    # Main testing framework
+pytest-html>=3.0.0              # HTML test reports
+pytest-xdist>=3.0.0             # Parallel test execution
+pytest-timeout>=2.0.0           # Test timeout management
+
+# Browser Automation
+playwright>=1.40.0               # Browser automation framework
+pytest-playwright>=0.4.0        # Pytest integration for Playwright
+
+# HTTP Requests and API Testing
+requests>=2.31.0                 # HTTP library for API calls
+responses>=0.23.0                # Mock HTTP responses for testing
+
+# Data Generation and Utilities
+faker>=20.0.0                    # Fake data generation for testing
+python-dotenv>=1.0.0             # Environment variable management
+
+# File and Data Processing
+pandas>=2.0.0                    # Data manipulation and CSV handling
+openpyxl>=3.1.0                  # Excel file support
+
+# Logging and Reporting
+allure-pytest>=2.13.0            # Allure test reporting
+pytest-json-report>=1.5.0        # JSON test reports
+
+# Development and Debugging
+ipdb>=0.13.0                     # Enhanced debugger
+black>=23.0.0                    # Code formatting
+flake8>=6.0.0                    # Code linting
+mypy>=1.0.0                      # Type checking
+
+# Optional: Performance Testing
+locust>=2.15.0                   # Load testing framework
+
+# Optional: Visual Testing
+pytest-image-diff>=0.1.0         # Visual regression testing
+
+# Optional: Database Testing
+pytest-django>=4.5.0             # Django testing support (if needed)
+pytest-postgresql>=4.1.0         # PostgreSQL testing support (if needed)

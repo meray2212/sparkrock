@@ -1,4 +1,4 @@
-# 🚀 Pemo Test Automation Framework
+# 🚀 Test Automation Framework
 
 Automation framework for the **Pemo application** using **Playwright**, **Python**, and the **Page Object Model (POM)** pattern.  
 It covers end-to-end scenarios like **user registration**, **company setup**, **bulk invitations**, and **dashboard validation**.
